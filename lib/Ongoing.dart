@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 
 class Ongoing extends StatelessWidget {
   final List<String> gambar = [
-    "asset/image/DREAM 1.png",
-    "asset/image/DREAM 2.png",
-    "asset/image/DREAM 3.png",
-    "asset/image/DREAM 4.png",
-    "asset/image/DREAM 5.png",
-    "asset/image/DREAM 6.png",
-    "asset/image/DREAM 7.png"
+    "asset/image/mv1.jpg",
+    "asset/image/mv2.jpg",
+    "asset/image/mv3.jpg",
+    "asset/image/mv4.jpg",
+    "asset/image/mv5.jpg",
+    "asset/image/mv6.jpg",
+    "asset/image/mv7.jpg"
   ];
 
   final List<String> sub = [
