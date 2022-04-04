@@ -29,7 +29,7 @@ class BelajarAppBar extends StatelessWidget {
                 pinned: true,
                 flexibleSpace: FlexibleSpaceBar(
                   centerTitle: true,
-                  title: Text("Belajar SliverAppBar",
+                  title: Text("WeNime",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 20.0,
@@ -44,7 +44,7 @@ class BelajarAppBar extends StatelessWidget {
                 pinned: true,
                 delegate: _SliverAppBarDelegate(
                   TabBar(
-                    labelColor: Colors.black87,
+                    labelColor: Colors.teal.shade800,
                     unselectedLabelColor: Colors.grey,
                     tabs: [
                       new Tab(icon: new Icon(Icons.audiotrack), text: "Songs"),
