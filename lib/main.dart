@@ -49,6 +49,7 @@ class BelajarAppBar extends StatelessWidget {
                     tabs: [
                       new Tab(icon: new Icon(Icons.audiotrack), text: "Songs"),
                       new Tab(icon: new Icon(Icons.collections), text: "Gallery"),
+                      new Tab(icon: new Icon(Icons.collections), text: "Gallery"),
                     ],
                   ),
                 ),
@@ -73,6 +74,8 @@ class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
   double get minExtent => _tabBar.preferredSize.height;
   @override
   double get maxExtent => _tabBar.preferredSize.height;
+  @override
+  double get maiExtent => _tabBar.preferredSize.height;
 
   @override
   Widget build(BuildContext context, double shrinkOffset, bool overlapsContent) {
