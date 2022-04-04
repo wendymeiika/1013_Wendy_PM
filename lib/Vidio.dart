@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Ongoing extends StatelessWidget {
+class Vidio extends StatelessWidget {
   final List<String> gambar = [
     "asset/image/mv1.jpg",
     "asset/image/mv2.jpg",

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import './song.dart' as Song;
+import './lagu.dart' as Lagu;
 import './galeri.dart' as Galeri;
-import './Ongoing.dart' as ongoing;
+import './Vidio.dart' as vidio;
 
 void main() {
   runApp(MyApp());
@@ -62,9 +62,9 @@ class BelajarAppBar extends StatelessWidget {
           },
           body: TabBarView(
             children: <Widget>[
-              new Song.song(),
+              new Lagu.lagu(),
               new Galeri.galeri(),
-              new ongoing.Ongoing(),
+              new vidio.Vidio(),
             ],
           ),
         ),

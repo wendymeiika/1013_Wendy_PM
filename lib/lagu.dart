@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class song extends StatelessWidget {
-  final List lagu = [
+class lagu extends StatelessWidget {
+  final List judul = [
     "Life Is Still Going On",
     "Rainbow",
     "Chewing Gum",
@@ -33,7 +33,7 @@ class song extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView.builder(
-        itemCount: lagu.length,
+        itemCount: judul.length,
         itemBuilder: (context, index) {
           return Card(
             child: ListTile(
@@ -41,7 +41,7 @@ class song extends StatelessWidget {
                 Icons.play_arrow,
                 color: Colors.pink[800],
               ),
-              title: Text(lagu[index], style: TextStyle(color: Colors.pink[600], fontWeight: FontWeight.bold, fontSize: 17)),
+              title: Text(judul[index], style: TextStyle(color: Colors.pink[600], fontWeight: FontWeight.bold, fontSize: 17)),
               subtitle: Text(studio[index]),
             ),
           );
