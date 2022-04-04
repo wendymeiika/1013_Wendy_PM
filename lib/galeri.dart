@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 
 class galeri extends StatelessWidget {
   final List<String> gambar = [
-    "asset/image/DREAM 1.png",
-    "asset/image/DREAM 2.png",
-    "asset/image/DREAM 3.png",
-    "asset/image/DREAM 4.png",
-    "asset/image/DREAM 5.png",
-    "asset/image/DREAM 6.png",
-    "asset/image/DREAM 7.png"
+    "asset/image/rj.jpeg",
+    "asset/image/jn.jpeg",
+    "asset/image/hc.jpeg",
+    "asset/image/jm.jpeg",
+    "asset/image/ch.jpeg",
+    "asset/image/js.jpeg",
+    "asset/image/mk.jpeg"
   ];
 
   final List<String> sub = [
