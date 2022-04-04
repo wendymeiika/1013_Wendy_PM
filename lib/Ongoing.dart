@@ -25,7 +25,6 @@ class Ongoing extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
       body: ListView.builder(
         itemCount: gambar.length,
         itemBuilder: (context, index) {
