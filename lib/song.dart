@@ -33,15 +33,12 @@ class song extends StatelessWidget {
         itemBuilder: (context, index) {
           return Card(
             child: ListTile(
-              title: Text(
-                lagu[index],
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.pink[800],
-                  fontWeight: FontWeight.bold,
-                ),
+              leading: Icon(
+                Icons.play_arrow,
+                color: Colors.pink[800],
               ),
-              subtitle: Text(studio[index], style: TextStyle(color: Colors.pink[600], fontWeight: FontWeight.bold, fontSize: 10)),
+              title: Text(lagu[index], style: TextStyle(color: Colors.pink[600], fontWeight: FontWeight.bold, fontSize: 17)),
+              subtitle: Text(studio[index]),
             ),
           );
         },
