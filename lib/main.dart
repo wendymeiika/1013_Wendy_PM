@@ -32,7 +32,7 @@ class BelajarAppBar extends StatelessWidget {
                 pinned: true,
                 flexibleSpace: FlexibleSpaceBar(
                   centerTitle: true,
-                  title: Text("NCT DREAM",
+                  title: Text("NCT",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 20.0,
