@@ -6,7 +6,7 @@ class Ongoing extends StatelessWidget {
     "asset/image/mv1.jpg",
     "asset/image/mv2.jpg",
     "asset/image/mv3.jpg",
-    "asset/image/mv4.jpg",
+    "asset/image/mv4.png",
     "asset/image/mv5.jpg",
     "asset/image/mv6.jpg",
     "asset/image/mv7.jpg"
