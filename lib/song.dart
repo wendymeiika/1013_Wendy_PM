@@ -14,6 +14,7 @@ class song extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.yellow[700],
       body: ListView.builder(
         itemBuilder: (context, index) {
           return Card(
