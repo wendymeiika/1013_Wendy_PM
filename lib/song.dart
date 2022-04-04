@@ -36,12 +36,12 @@ class song extends StatelessWidget {
               title: Text(
                 lagu[index],
                 style: TextStyle(
-                  fontSize: 30,
+                  fontSize: 20,
                   color: Colors.pink[800],
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              subtitle: Text(studio[index], style: TextStyle(color: Colors.pink[600], fontWeight: FontWeight.bold, fontSize: 20)),
+              subtitle: Text(studio[index], style: TextStyle(color: Colors.pink[600], fontWeight: FontWeight.bold, fontSize: 10)),
             ),
           );
         },
