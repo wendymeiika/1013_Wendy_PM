@@ -18,8 +18,8 @@ class Ongoing extends StatelessWidget {
     'Chewing Gum - MV',
     'My First and Last - MV',
     'Dear Dream - MV',
-    'Go - MV',
-    'Trigger The Fever - MV'
+    'W Go Up - MV',
+    'Go - MV'
   ];
 
   @override

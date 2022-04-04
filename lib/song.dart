@@ -11,24 +11,40 @@ class song extends StatelessWidget {
     "Trigger The Fever",
     "Best Friend",
   ];
+
+  final List<String> studio = [
+    'NCT Dream - SM',
+    'NCT Dream - SM',
+    'NCT Dream - SM',
+    'NCT Dream - SM',
+    'NCT Dream - SM',
+    'NCT Dream - SM',
+    'NCT Dream - SM',
+    'NCT Dream - SM',
+    'NCT Dream - SM',
+    'NCT Dream - SM',
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
       body: ListView.builder(
+        itemCount: lagu.length,
         itemBuilder: (context, index) {
           return Card(
-            child: Padding(
-              padding: const EdgeInsets.all(15.0),
-              child: Text(lagu[index],
-                  style: TextStyle(
-                    fontSize: 20,
-                    color: Colors.pink[800],
-                  )),
+            child: ListTile(
+              title: Text(
+                lagu[index],
+                style: TextStyle(
+                  fontSize: 30,
+                  color: Colors.pink[800],
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              subtitle: Text(studio[index], style: TextStyle(color: Colors.pink[600], fontWeight: FontWeight.bold, fontSize: 20)),
             ),
           );
         },
-        itemCount: lagu.length,
       ),
     );
   }
