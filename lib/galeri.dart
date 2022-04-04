@@ -36,7 +36,7 @@ class galeri extends StatelessWidget {
                 height: 200,
                 fit: BoxFit.cover,
               )),
-              subtitle: Text(sub[index], style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 15)),
+              subtitle: Text(sub[index], style: TextStyle(color: Colors.pink[800], fontWeight: FontWeight.bold, fontSize: 15)),
             ),
           );
         },
