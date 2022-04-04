@@ -47,8 +47,8 @@ class BelajarAppBar extends StatelessWidget {
                 pinned: true,
                 delegate: _SliverAppBarDelegate(
                   TabBar(
-                    labelColor: Colors.black87,
-                    unselectedLabelColor: Colors.grey,
+                    labelColor: Colors.yellow[800],
+                    unselectedLabelColor: Colors.yellow[900],
                     tabs: <Widget>[
                       new Tab(icon: new Icon(Icons.audiotrack), text: "Lagu"),
                       new Tab(icon: new Icon(Icons.collections), text: "Gallery"),

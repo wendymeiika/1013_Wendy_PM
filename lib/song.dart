@@ -22,7 +22,7 @@ class song extends StatelessWidget {
               padding: const EdgeInsets.all(15.0),
               child: Text(lagu[index],
                   style: TextStyle(
-                    fontSize: 30,
+                    fontSize: 20,
                     color: Colors.blueAccent,
                   )),
             ),
