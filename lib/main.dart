@@ -21,13 +21,13 @@ class BelajarAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.pink[700],
       body: DefaultTabController(
         length: 3,
         child: NestedScrollView(
           headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
             return <Widget>[
               SliverAppBar(
+                backgroundColor: Colors.pink[700],
                 expandedHeight: 200.0,
                 floating: false,
                 pinned: true,

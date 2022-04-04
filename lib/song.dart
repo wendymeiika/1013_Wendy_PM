@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 class song extends StatelessWidget {
   final List lagu = [
-    "Yui – Again (Fullmetal Alchemist : Broterhood)",
-    "Galileo Galilei – Aoi Shirori (Anohana)",
-    "Chaos Head OP (F.D.D – by Itou Kanako)",
-    "Rolling Star – YUI (Bleach)",
-    "Shillouette – by KANA-BOON",
-    "Ikimono-gakari – Netsujou no Spectrum ",
-    "Burnout Syndromes – Fly High!!",
-    "Akeboshi – Wind ( Naruto )",
+    "Life Is Still Going On",
+    "Rainbow",
+    "Chewing Gum",
+    "My First and Last",
+    "Dear Dream ",
+    "Go",
+    "Trigger The Fever",
+    "Best Friend",
   ];
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class song extends StatelessWidget {
               child: Text(lagu[index],
                   style: TextStyle(
                     fontSize: 20,
-                    color: Colors.blueAccent,
+                    color: Colors.pink[800],
                   )),
             ),
           );
