@@ -24,12 +24,6 @@ class galeri extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Center(
-          child: Text("NCT DREAM Comeback", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
-        ),
-        backgroundColor: Colors.yellow[200],
-      ),
       body: ListView.builder(
         itemCount: gambar.length,
         itemBuilder: (context, index) {
