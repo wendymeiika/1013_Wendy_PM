@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import './song.dart' as Song;
+import './galeri.dart' as Galeri;
+import './Ongoing.dart' as ongoing;
 
 void main() {
   runApp(MyApp());
@@ -29,13 +32,13 @@ class BelajarAppBar extends StatelessWidget {
                 pinned: true,
                 flexibleSpace: FlexibleSpaceBar(
                   centerTitle: true,
-                  title: Text("WeNime",
+                  title: Text("NCT DREAM",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 20.0,
                       )),
                   background: Image(
-                    image: AssetImage('asset/image/bkn.jpeg'),
+                    image: AssetImage('asset/image/cv2.jpeg'),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -44,23 +47,23 @@ class BelajarAppBar extends StatelessWidget {
                 pinned: true,
                 delegate: _SliverAppBarDelegate(
                   TabBar(
-                    labelColor: Colors.teal.shade800,
+                    labelColor: Colors.black87,
                     unselectedLabelColor: Colors.grey,
-                    tabs: [
-                      new Tab(icon: new Icon(Icons.audiotrack), text: "Songs"),
+                    tabs: <Widget>[
+                      new Tab(icon: new Icon(Icons.audiotrack), text: "Lagu"),
                       new Tab(icon: new Icon(Icons.collections), text: "Gallery"),
-                      new Tab(icon: new Icon(Icons.brightness_5_sharp), text: "Bike"),
+                      new Tab(icon: new Icon(Icons.airplanemode_on), text: "Ongoing"),
                     ],
                   ),
                 ),
               ),
             ];
           },
-          body: const TabBarView(
-            children: [
-              Icon(Icons.directions_car),
-              Icon(Icons.directions_transit),
-              Icon(Icons.directions_bike),
+          body: TabBarView(
+            children: <Widget>[
+              new Song.song(),
+              new Galeri.galeri(),
+              new ongoing.Ongoing(),
             ],
           ),
         ),
@@ -83,6 +86,7 @@ class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
   Widget build(BuildContext context, double shrinkOffset, bool overlapsContent) {
     return new Container(
       child: _tabBar,
+      color: Colors.white,
     );
   }
 

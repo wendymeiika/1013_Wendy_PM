@@ -1,20 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: cobaListView(),
-    );
-  }
-}
-
-class cobaListView extends StatelessWidget {
+class galeri extends StatelessWidget {
   final List<String> gambar = [
     "asset/image/DREAM 1.png",
     "asset/image/DREAM 2.png",
