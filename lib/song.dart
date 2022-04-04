@@ -10,9 +10,13 @@ class song extends StatelessWidget {
     "Go",
     "Trigger The Fever",
     "Best Friend",
+    "BOOM",
+    "Hello Future"
   ];
 
   final List<String> studio = [
+    'NCT Dream - SM',
+    'NCT Dream - SM',
     'NCT Dream - SM',
     'NCT Dream - SM',
     'NCT Dream - SM',
