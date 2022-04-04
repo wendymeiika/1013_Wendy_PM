@@ -33,7 +33,7 @@ class BelajarAppBar extends StatelessWidget {
                 pinned: true,
                 flexibleSpace: FlexibleSpaceBar(
                   centerTitle: true,
-                  title: Text("NCT",
+                  title: Text("NCT DREAM",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 20.0,
@@ -53,7 +53,7 @@ class BelajarAppBar extends StatelessWidget {
                     tabs: <Widget>[
                       new Tab(icon: new Icon(Icons.audiotrack), text: "Lagu"),
                       new Tab(icon: new Icon(Icons.collections), text: "Gallery"),
-                      new Tab(icon: new Icon(Icons.airplanemode_on), text: "Ongoing"),
+                      new Tab(icon: new Icon(Icons.video_library_sharp), text: "Vidio MV"),
                     ],
                   ),
                 ),
