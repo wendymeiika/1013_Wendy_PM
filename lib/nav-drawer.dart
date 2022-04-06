@@ -52,15 +52,7 @@ Widget _drawerHeader() {
     currentAccountPicture: ClipOval(
       child: Image(image: AssetImage('asset/image/cv2.jpeg'), fit: BoxFit.cover),
     ),
-    otherAccountsPictures: [
-      ClipOval(
-        child: Image(image: AssetImage('asset/image/cv2.jpeg'), fit: BoxFit.cover),
-      ),
-      ClipOval(
-        child: Image(image: AssetImage('asset/image/cv2.jpeg'), fit: BoxFit.cover),
-      )
-    ],
-    accountName: Text('RESOOMUSIC'),
+    accountName: Text('NCT Dream Official'),
     accountEmail: Text('nctdreamwendy@gmail.com'),
   );
 }
