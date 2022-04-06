@@ -49,6 +49,7 @@ class DrawerWidget extends StatelessWidget {
 
 Widget _drawerHeader() {
   return UserAccountsDrawerHeader(
+    decoration: BoxDecoration(color: Colors.pink[700]),
     currentAccountPicture: ClipOval(
       child: Image(image: AssetImage('asset/image/cv2.jpeg'), fit: BoxFit.cover),
     ),
