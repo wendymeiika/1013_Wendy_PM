@@ -10,21 +10,21 @@ class DrawerWidget extends StatelessWidget {
           _drawerHeader(),
           _drawerItem(
               icon: Icons.audiotrack,
-              text: 'song',
+              text: 'Lagu',
               onTap: () {
                 DefaultTabController.of(context)?.animateTo(0);
                 Navigator.pop(context);
               }),
           _drawerItem(
-              icon: Icons.assignment_sharp,
-              text: 'Album',
+              icon: Icons.collections,
+              text: 'Gallery',
               onTap: () {
                 DefaultTabController.of(context)?.animateTo(1);
                 Navigator.pop(context);
               }),
           _drawerItem(
-              icon: Icons.offline_bolt,
-              text: 'Offline',
+              icon: Icons.video_library_sharp,
+              text: 'Vidio MV',
               onTap: () {
                 DefaultTabController.of(context)?.animateTo(2);
                 Navigator.pop(context);
