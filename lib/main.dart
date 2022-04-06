@@ -3,7 +3,7 @@ import './nav-drawer.dart';
 
 void main() {
   runApp(MaterialApp(
-    title: "belajardraweralvina.com",
+    title: "nctdreamwendy@gmail.com",
     home: BelajarNavigationDrawer(),
   ));
 }

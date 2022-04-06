@@ -37,7 +37,7 @@ class DrawerWidget extends StatelessWidget {
             child: Text("Labels",
                 style: TextStyle(
                   fontSize: 16,
-                  color: Colors.black54,
+                  color: Colors.pink[800],
                 )),
           ),
           _drawerItem(icon: Icons.bookmark, text: 'Family', onTap: () => print('Tap Family menu')),
