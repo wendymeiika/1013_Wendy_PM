@@ -12,8 +12,8 @@ class DrawerWidget extends StatelessWidget {
               icon: Icons.audiotrack,
               text: 'Lagu',
               onTap: () {
-                unselectedLabelColor:
-                Colors.pink[800];
+                labelColor:
+                Colors.pink;
                 DefaultTabController.of(context)?.animateTo(0);
                 Navigator.pop(context);
               }),
